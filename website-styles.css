@@ -1,0 +1,115 @@
+body{
+    background-color: white;
+}
+
+
+
+header {
+    background-color: black;
+    
+    
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    font-style: italic;
+    color: yellow;
+    text-align: center;
+    padding-top:50px;
+
+}
+
+    
+    
+
+ul{
+    
+    padding: 5px;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom:50px;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {
+      background-color: black;
+    }
+  
+  button:active {
+    transform: translateY(4px);
+  }
+
+
+.welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: yellow;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif
+    }
+
+.welcome-para {
+text-align: center;
+}
+
+.about-me {
+font-size: 20px;
+text-align:center;
+padding-bottom: 50px;
+}
+
+.gallery-section {
+
+    background-color: black;
+    padding-bottom: 10px;
+
+}
+.images {
+    height:500px;
+    padding-left: 250px;
+    
+    
+}
+
+.images2 {
+    height: 500px;
+    padding-left:430px;
+}
+
+.explanations {
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.Designs {
+font-size: 70px;
+font-family:Arial, Helvetica, sans-serif;
+}  
+
+
+
