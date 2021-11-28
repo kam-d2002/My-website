@@ -83,19 +83,21 @@ padding-bottom: 50px;
 
     background-color: black;
     padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
+
 .images {
-    height:500px;
-    padding-left: 250px;
-    
-    
+    height: 500px;
+  
 }
 
-.images2 {
-    height: 500px;
-    padding-left:430px;
-}
+
+
 
 .explanations {
     color: yellow;
@@ -112,9 +114,8 @@ font-family:Arial, Helvetica, sans-serif;
 }  
 
 footer {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+    text-align: center;
 
 }
 
