@@ -35,7 +35,7 @@ h1{
     
 div {
     padding-top: 30px;
-    padding: 50px;
+    padding: 30px;
 
 }
 
@@ -55,13 +55,14 @@ div {
 button {
     display: inline-block;
     font-size: 30px;
+    padding: 5px;
     cursor: pointer;
     text-align: center;
     color: #fff;
     background-color: yellow;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 5px #999;
     font-family: omnes-pro;
   }
   
@@ -81,7 +82,6 @@ button {
     justify-content: center;
     background-color: yellow;
     font-size: 40px;
-    font-family:Arial, Helvetica, sans-serif
     }
 
 .welcome-para {
@@ -122,6 +122,9 @@ padding-bottom: 100px;
 }
 
 .images {
+    border: 10px;
+    border-style:solid;
+    border-color: yellow;
     height: 500px;
   
 }
@@ -143,6 +146,53 @@ font-family:omnes-pro;
 font-size: 100px;
 
 }  
+
+.coding {
+    border: 10px;
+    border-style:solid;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: black;
+    font-size: 200px;
+    font-family: lores-12, sans-serif;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+.coding-section1 {
+    
+}
+.coding-section2 {
+    border: 10px;
+    border-style:solid;
+    padding: 50px;
+    border-color: black;
+
+    
+
+}
+
+h2 {
+    font-family: omnes-pro; 
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+.code-reflection {
+    font-family: omnes-pro;
+    font-size: 30px;
+    text-align: center;
+ 
+}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
