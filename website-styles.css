@@ -11,7 +11,7 @@ header {
     
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: omnes-pro; 
     font-size: 50px;
     font-style: italic;
     color: yellow;
@@ -20,12 +20,20 @@ h1{
 
 }
 
-    
-    
+.welcome {
+    border: 10px;
+    border-style:groove;
+    padding: 50px;
+    border-color: black;
+    font-family: blow-up;
+    padding-top: 50px;
+    font-size: 150px;
 
-ul{
+}  
     
-    padding: 5px;
+div {
+    padding-top: 50px;
+
 }
 
 .container-navigation {
@@ -34,6 +42,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     padding-bottom:50px;
+
 }
 
 
@@ -48,6 +57,7 @@ button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    font-family: omnes-pro;
   }
   
   button:hover {
@@ -70,19 +80,23 @@ button {
     }
 
 .welcome-para {
+font-family: omnes-pro;
+font-size: 80px;
 text-align: center;
 }
 
 .about-me {
-font-size: 20px;
+font-family: omnes-pro;
+font-size: 40px;
 text-align:center;
 padding-bottom: 50px;
+
 }
 
 .gallery-section {
 
     background-color: black;
-    padding-bottom: 10px;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -101,7 +115,7 @@ padding-bottom: 50px;
 
 .explanations {
     color: yellow;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: omnes-pro;
     font-size: 40px;
     padding: 5px;
     text-align: center;
@@ -109,8 +123,9 @@ padding-bottom: 50px;
 
 
 .Designs {
-font-size: 70px;
-font-family:Arial, Helvetica, sans-serif;
+font-family:omnes-pro;
+font-size: 100px;
+
 }  
 
 footer {
