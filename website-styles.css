@@ -11,7 +11,8 @@ header {
     
     
 }
-h1{
+
+.title {
     font-family: omnes-pro; 
     font-size: 60px;
     font-style: italic;
@@ -143,8 +144,12 @@ padding-bottom: 100px;
 
 
 .Designs {
-font-family:omnes-pro;
+font-family: omnes-pro; 
 font-size: 100px;
+font-style: italic;
+color: yellow;
+text-align: center;
+padding-bottom: 20px;
 
 }  
 
@@ -157,12 +162,12 @@ font-size: 100px;
     border-color: black;
     font-size: 200px;
     font-family: lores-12, sans-serif;
-    color: black;
+    color: lime;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    background-color: white;
+    background-color: black;
 }
 
 ul {
@@ -207,21 +212,22 @@ ul {
 }
 
 .codingtaskimages {
-    height:400px;
-    padding:10px;
-    padding-top: 10px;
+    height:500px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
 }
 .coding-section2 {
     border: 10px;
     border-style:solid;
     padding: 50px;
-    border-color: black;
+    border-color: lime;
 
     
 
 }
 
-h2 {
+.reflection-header {
     font-family: omnes-pro; 
     font-size: 60px;
     color: black;
@@ -232,11 +238,49 @@ h2 {
 }
 
 .code-reflection {
+    background-color: black;
     font-family: omnes-pro;
     font-size: 30px;
+    color: lime;
     text-align: center;
  
 }
+
+.Ux-section-one {
+  padding: 50px;
+  background-color: turquoise;
+
+
+}
+
+.section-one-title {
+  font-family: Helvetica, sans-serif;
+  font-color: white;
+  font-size: 150px;
+  border: 10px;
+  border-colour: white;
+  border-style: solid;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+ .UX-image {
+   height: 200px;
+   width: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+
+
+
+   
+ }
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
