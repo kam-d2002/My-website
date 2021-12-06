@@ -246,6 +246,10 @@ ul {
  
 }
 
+.carp-title {
+  font-family: omnes-pro;
+  font-size: 80px;
+}
 .Ux-section-one {
   padding: 50px;
   background-color: turquoise;
@@ -276,11 +280,7 @@ ul {
    align-items: center;
    justify-content: center;
 
-
-
-
-   
- }
+}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
@@ -411,3 +411,17 @@ footer {
     justify-content: center;
     align-content: center;
   }  
+
+  .image4 {
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .image5 {
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
