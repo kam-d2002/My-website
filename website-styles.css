@@ -18,7 +18,7 @@ header {
     font-style: italic;
     color: yellow;
     text-align: center;
-    padding-bottom: 20px;
+
 
 
 }
@@ -249,9 +249,26 @@ ul {
 .carp-title {
   font-family: omnes-pro;
   font-size: 80px;
+  border:10px;
+  border-color: black;
+  border-style: solid;
+  padding:20px;
+}
+.carp-sub-title {
+  font-size:50px;
+}
+
+.carp-section-one {
+  font-family: omnes-pro;
+  font-size: 30px;
+
+}
+
+.summarised {
+  font-size:50px;
 }
 .Ux-section-one {
-  padding: 50px;
+
   background-color: turquoise;
 
 
