@@ -261,25 +261,71 @@ ul {
 .carp-section-one {
   font-family: omnes-pro;
   font-size: 30px;
-
 }
 
 .summarised {
   font-size:50px;
 }
+
+.carp-section-two {
+  font-family: omnes-pro;
+  font-size: 18px;
+
+}
+
+.posters-1 {
+  height:330px;
+  display:inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  padding-left:120px;
+}
+
+.first3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.posters-2 {
+  height:400px;
+  display:inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left:200px;
+}
+.poster-explanation1 {
+  font-family: omnes-pro;
+  font-size:20px;
+  color:black;
+}
+
+.dev-title {
+  font-size:50px;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .Ux-section-one {
-
   background-color: turquoise;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .section-one-title {
   font-family: Helvetica, sans-serif;
-  font-color: white;
+  color: white;
   font-size: 150px;
   border: 10px;
-  border-colour: white;
+  border-color: white;
   border-style: solid;
   padding: 50px;
   display: flex;
@@ -288,16 +334,7 @@ ul {
   align-items: left;
   justify-content: left;
 }
- .UX-image {
-   height: 200px;
-   width: 400px;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
 
-}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
