@@ -25,10 +25,7 @@ header {
 
 
 .welcome {
-  /*  border: 10px;
-    border-style:groove;
-    padding: 50px;
-    border-color: black; */
+
     font-family: blow-up;
     padding-top: 50px;
     font-size: 250px;
@@ -331,12 +328,27 @@ ul {
   justify-content: center;
 
 
+
+}
+
+.scope {
+  font-size: 25px;
+  text-align: center;
 }
 
 .Ux-paragraph {
-  font-size: 30px;
+  font-size: 25px;
 }
 
+.development {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: left;
+  border: 10px;
+  border-style: solid;
+  color: white;
+}
 .cs-title {
   font-size: 50px;
   text-align: center;
@@ -346,6 +358,7 @@ ul {
   border: 10px;
   border-style: solid;
   color: black;
+
 }
 
 .section-one-title {
@@ -373,8 +386,51 @@ ul {
   font-family: omnes-pro;
   text-align: left;
 }
+
+.font-para2 {
+  font-size: 70px;
+  font-family: blow-up;
+  text-align: left;
+}
+.font-para3 {
+  font-size: 40px;
+  font-family: lores-12;
+  padding-right: 100px;
 }
 
+.blow-up-para {
+  font-size: 30px;
+
+}
+
+.fc-title {
+  font-size: 50px;
+
+}
+
+.fc {
+  font-size: 30px;
+}
+
+.wireframe {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.wireframes-explained {
+  font-size: 30px;
+}
+
+.Ux-reflection {
+  text-align: center;
+  font-family: omnes-pro;
+  font-size: 25px;
+  border: 10px;
+  border-style: solid;
+  color: black;
+}
 .Typography-section1 {
   background-color: black;
   font-family: 'Times New Roman', Times, serif;
@@ -428,7 +484,7 @@ padding: 20px;
   text-align: center;
   font-family: omnes-pro;
   font-size: 25px;
-  font-color: black;
+  color: black;
   border: 10px;
   border-style: solid;
   color: black;
