@@ -1,8 +1,7 @@
 body{
     background-color: white;
 }
-
-
+/* background colour */
 
 header {
     background-color: black;
@@ -22,7 +21,7 @@ header {
 
 
 }
-
+/* header design CSS */
 
 .welcome {
 
@@ -31,7 +30,7 @@ header {
     font-size: 250px;
 
 }  
-    
+    /* Welcome design */
 div {
     padding-top: 30px;
     padding: 30px;
@@ -49,7 +48,7 @@ div {
 
 
 }
-
+/* Navigation bar */
 
 button {
     display: inline-block;
@@ -73,7 +72,7 @@ button {
     transform: translateY(4px);
   }
 
-
+/* Button styles */
 .welcome-section {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +103,7 @@ padding-right: 50px;
 padding-bottom: 100px;
 
 }
-
+/* Homepage first section */
 .gallery-section {
 
     background-color: black;
@@ -146,6 +145,7 @@ text-align: center;
 padding-bottom: 20px;
 
 }  
+/*End of gallery and homepage */
 
 .coding {
     border: 10px;
@@ -180,7 +180,7 @@ ul {
 
 
 }
-
+/* Github links */
 .computer-img {
     height:250px;
     padding-top: 20px;
@@ -211,6 +211,8 @@ ul {
     border-style: solid;
     border-color: black;
 }
+
+/* Image sizing and borders*/
 .coding-section2 {
     border: 10px;
     border-style:solid;
@@ -239,7 +241,9 @@ ul {
     text-align: center;
  
 }
+/* End of coding page */
 
+/* CARP page */
 .carp-title {
   font-family: omnes-pro;
   font-size: 80px;
@@ -290,6 +294,8 @@ ul {
   flex-direction: row;
   padding-left:200px;
 }
+
+
 .poster-explanation {
   font-family: omnes-pro;
   font-size:20px;
@@ -317,6 +323,8 @@ ul {
   border-style: solid;
   color: black;
 }
+
+/* Start of UX page CSS */
 .Ux-section-one {
   font-family: omnes-pro;
   font-size: 15px;
@@ -431,6 +439,10 @@ ul {
   border-style: solid;
   color: black;
 }
+
+/* End of UX */
+
+/* Typography page */
 .Typography-section1 {
   background-color: black;
   font-family: 'Times New Roman', Times, serif;
@@ -488,7 +500,10 @@ padding: 20px;
   border: 10px;
   border-style: solid;
   color: black;
+  padding: 10px;
 }
+/* End of pages */
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
